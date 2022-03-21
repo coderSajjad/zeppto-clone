@@ -1,0 +1,179 @@
+  .mobile_menu_icon {
+      display: none;
+  }
+  
+  /* Medium ≥768px Tablet Display */
+  @media (max-width: 767px) {
+  
+      /* Defaults */
+      .section-title {
+          font-size: 39px;
+      }
+  
+  
+      /* Header */
+      header .container {
+          flex-direction: column;
+          align-items: flex-start;
+          position: relative;
+      }
+  
+      .nav {
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          border-bottom: 1px solid #ddd;
+          padding-bottom: 20px;
+          display: none;
+      }
+  
+      .nav_active {
+          display: flex;
+      }
+  
+      .nav-link {
+          margin: 0;
+          padding: 10px 0;
+      }
+  
+      .mobile_menu_icon {
+          display: block;
+          font-size: 28px;
+          cursor: pointer;
+          color: var(--primary-color);
+          position: absolute;
+          right: 25px;
+          z-index: 8888;
+      }
+  
+      /* Hero */
+      .hero-content {
+          flex-direction: column;
+      }
+  
+      .hero-left {
+          width: 90%;
+      }
+  
+      .hero-right {
+          width: 80%;
+          margin-top: 50px;
+      }
+  
+      .hero-left h1 {
+          font-size: 2.8em;
+          font-weight: 500;
+      }
+  
+      /* partners */
+      .pertners-single{
+          margin: 0 10px;
+      }
+  
+      /* Benefits */
+      .demo {
+          flex-direction: column;
+      }
+  
+      .benefite-wraper{
+          padding: 40px 30px;
+      }
+  
+      .demo-video,
+      .demo-right {
+          width: 100%;
+      }
+  
+      .benefit-ads {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+      }
+  
+      .benefit-ads h1{
+          margin-bottom: 20px !important;
+          
+      }
+
+      .benefit-ads p{
+          font-size: 16px;
+          line-height: 28px;
+          
+      }
+       
+      .benefite-card-area{
+          justify-content: center;
+      }
+  
+      .benefite-single-card {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          margin-bottom: 40px;
+      }
+  
+      /* Start */
+      .start-now-content {
+          flex-direction: column;
+      }
+  
+      .start-now-content h1,
+      .start-now-btn-wrapper {
+          width: 100%;
+      }
+  
+      .start-now-btn-wrapper {
+          margin-top: 30px;
+      }
+   
+           /* payment area */
+      .payment-area {
+            margin: 30px 20px;
+          }
+      .payment-area-wrapper{
+          flex-direction: column;
+
+      }
+      .payment-content h3{
+         font-size: 18px;
+         line-height: 25px;
+         
+      }
+
+      .payment-platforms-area {
+        margin: 10px 0;
+      }
+      .platforms-wrapper {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .platforms-wrapper h1{
+          width: 440px;
+          font-size:33px ;
+          line-height: 40px;
+          margin: 5px 0;
+         text-align: center;
+      }
+  
+      /* Footer */
+      .footer_content{
+          flex-direction: column;
+      }
+      .footer_section{
+          margin-bottom: 25px;
+      }
+       .footer_sig{
+          flex-direction: column-reverse;
+      }
+      .footer_socials{
+          margin-bottom: 15px;
+      }
+      .footer_socials .nav-link{
+          margin:10px;
+
+      }
+  }
+  
+  
